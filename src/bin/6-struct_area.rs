@@ -18,6 +18,12 @@ fn main() {
         width: 30,
         height: 50,
     };
-    println!("The area of the rectangle is {} square pixels.", rect1.area());
-    println!("The perimeter of the rectangle is {} pixels.", rect1.perimeter());
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        rect1.area()
+    );
+    println!(
+        "The perimeter of the rectangle is {} pixels.",
+        rect1.perimeter()
+    );
 }
