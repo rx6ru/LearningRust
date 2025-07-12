@@ -13,9 +13,9 @@ fn main() {
         (String::from("Amit"), 95),
         (String::from("Rahul"), 64),
         (String::from("Rohit"), 85),
-        (String::from("Sachin"), 90)
+        (String::from("Sachin"), 90),
     ];
 
-    let result=v2hm(pairs);
+    let result = v2hm(pairs);
     println!("{:?}", result);
 }

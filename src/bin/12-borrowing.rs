@@ -1,7 +1,7 @@
-fn main () {
+fn main() {
     let mut s1 = String::from("hello world");
     print_str(&s1);
-    add_to_it( &mut s1);
+    add_to_it(&mut s1);
     print!("{}", s1);
 }
 
